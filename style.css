@@ -11,10 +11,6 @@ body {
     color: #F6F6F6;
 }
 
-img{
-    width: 200px;
-    border-radius: 25px;
-}
 
 .apresentacao{
     margin: 10% 15%;
@@ -45,6 +41,11 @@ img{
     font-family: 'Montserrat', sans-serif;
 }
 
+.foto_programador{
+    width: 200px;
+    border-radius: 25px;
+}
+
 .apresentacao__links{
     display: flex;
     flex-direction: column;
@@ -60,9 +61,11 @@ img{
 }
 
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22d4fd;
     width: 378px;
-    text-align: center;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
@@ -72,6 +75,6 @@ img{
     font-family:'Montserrat', sans-serif ;
 }
 
-
-
-
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
